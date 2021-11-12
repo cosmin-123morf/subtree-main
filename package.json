@@ -1,0 +1,16 @@
+{
+  "name": "subtree-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cosmin-123morf/subtree-main.git",
+  "author": "<cosmin.simon@123formbuilder.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.14"
+  },
+  "scripts": {
+    "clean": "rm -rf generated/*",
+    "start": "yarn clean && openapi-generator-cli generate"
+    
+  }
+}
